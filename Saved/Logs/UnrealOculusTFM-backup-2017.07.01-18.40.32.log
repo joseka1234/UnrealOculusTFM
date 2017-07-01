@@ -1,0 +1,1141 @@
+﻿Log file open, 07/01/17 01:56:15
+LogInit:Display: Running engine for game: UnrealOculusTFM
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-265331749) SRandInit(-265331749).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072258
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.30-23.56.16:510][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'. Value remains '1'
+[2017.06.30-23.56.16:512][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-23.56.16:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.30-23.56.16:520][  0]LogInit: Computer: CARLOS-PC
+[2017.06.30-23.56.16:520][  0]LogInit: User: Carlos
+[2017.06.30-23.56.16:520][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.30-23.56.16:520][  0]LogInit: High frequency timer resolution =3.906265 MHz
+[2017.06.30-23.56.16:521][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.30-23.56.16:521][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.30-23.56.16:521][  0]LogMemory: Process Physical Memory: 262.55 MB used, 262.55 MB peak
+[2017.06.30-23.56.16:521][  0]LogMemory: Process Virtual Memory: 262.53 MB used, 262.53 MB peak
+[2017.06.30-23.56.16:521][  0]LogMemory: Physical Memory: 9187.57 MB used,  7145.05 MB free, 16332.61 MB total
+[2017.06.30-23.56.16:521][  0]LogMemory: Virtual Memory: 631.06 MB used,  7145.05 MB free, 134217728.00 MB total
+[2017.06.30-23.56.16:573][  0]LogInit: Overriding culture en with editor configuration.
+[2017.06.30-23.56.17:134][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.30-23.56.17:624][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.06.30-23.56.17:624][  0]LogD3D11RHI:       8119/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.30-23.56.17:625][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.30-23.56.17:625][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.30-23.56.17:625][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.30-23.56.17:630][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.30-23.56.17:630][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.30-23.56.17:630][  0]LogWindows: EnumDisplayDevices:
+[2017.06.30-23.56.17:630][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.06.30-23.56.17:630][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.30-23.56.17:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.30-23.56.17:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.30-23.56.17:631][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.30-23.56.17:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.06.30-23.56.17:631][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.06.30-23.56.17:631][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.06.30-23.56.17:631][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.30-23.56.18:088][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.30-23.56.18:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.30-23.56.18:163][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Intermediate/Shaders/WorkingDirectory/12544/).
+[2017.06.30-23.56.18:163][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Carlos/AppData/Local/Temp/UnrealShaderWorkingDir/1599229E406D8566E982F98D22A4DB16/'.
+[2017.06.30-23.56.18:163][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.30-23.56.19:020][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.30-23.56.19:059][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.30-23.56.19:099][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.30-23.56.19:138][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.30-23.56.19:178][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.30-23.56.19:219][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.30-23.56.19:258][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.30-23.56.19:297][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.30-23.56.19:328][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.30-23.56.19:367][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.30-23.56.19:405][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.30-23.56.19:443][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.30-23.56.19:481][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.30-23.56.19:519][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.30-23.56.19:561][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.30-23.56.19:637][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.30-23.56.19:637][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.30-23.56.19:663][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.30-23.56.19:736][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.30-23.56.19:760][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.30-23.56.19:798][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.30-23.56.19:837][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.30-23.56.19:876][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.30-23.56.19:914][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.30-23.56.19:914][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.30-23.56.20:194][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.30-23.56.20:241][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.30-23.56.20:255][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.30-23.56.20:267][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.30-23.56.20:307][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.30-23.56.20:308][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-23.56.20:308][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-23.56.20:538][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-23.56.20:541][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.30-23.56.20:721][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.30-23.56.20:749][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.30-23.56.20:786][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.30-23.56.20:786][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.30-23.56.20:786][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.30-23.56.21:229][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unrealoculustfm, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3001024160
+[2017.06.30-23.56.21:268][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.06.30-23.56.21:294][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.013173 seconds
+[2017.06.30-23.56.21:298][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.30-23.56.21:298][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.30-23.56.21:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.30-23.56.21:335][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.30-23.56.23:187][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.30-23.56.23:219][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.30-23.56.23:585][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.30-23.56.23:881][  0]SourceControl: Info Source control is disabled
+[2017.06.30-23.56.23:882][  0]SourceControl: Info Source control is disabled
+[2017.06.30-23.56.23:916][  0]SourceControl: Info Source control is disabled
+[2017.06.30-23.56.23:950][  0]SourceControl: Info Source control is disabled
+[2017.06.30-23.56.24:886][  0]LogEngine: Initializing Engine...
+[2017.06.30-23.56.24:886][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.30-23.56.25:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.30-23.56.25:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.30-23.56.25:116][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.30-23.56.25:121][  0]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.30-23.56.25:142][  0]LogInit: FAudioDevice initialized.
+[2017.06.30-23.56.25:179][  0]LogDerivedDataCache: Saved boot cache 0.04s 61MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.30-23.56.25:187][  0]LogInit: Texture streaming: Enabled
+[2017.06.30-23.56.25:249][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.30-23.56.25:313][  0]LogInit: Transaction tracking system initialized
+[2017.06.30-23.56.25:564][  0]BlueprintLog: New page: Editor Load
+[2017.06.30-23.56.26:235][  0]LocalizationService: Info Localization service is disabled
+[2017.06.30-23.56.26:691][  0]LogConsoleResponse:Display: 
+[2017.06.30-23.56.26:794][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.30-23.56.26:794][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.30-23.56.27:519][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/' took 0.01s
+[2017.06.30-23.56.27:519][  0]SourceControl: Info Source control is disabled
+[2017.06.30-23.56.27:519][  0]Cmd: MAP LOAD FILE="C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.30-23.56.27:522][  0]LightingResults: New page: Lighting Build
+[2017.06.30-23.56.27:549][  0]MapCheck: New page: Map Check
+[2017.06.30-23.56.27:549][  0]LightingResults: New page: Lighting Build
+[2017.06.30-23.56.27:908][  0]LogAIModule: Creating AISystem for world StartupMap
+[2017.06.30-23.56.28:036][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.30-23.56.28:049][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.30-23.56.28:097][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.615ms to complete.
+[2017.06.30-23.56.28:097][  0]LogFileHelpers: Loading map 'StartupMap' took 0.578
+[2017.06.30-23.56.28:276][  0]LogCollectionManager: Loaded 1 collections in 0.026109 seconds
+[2017.06.30-23.56.28:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/Collections/' took 0.01s
+[2017.06.30-23.56.28:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/Developers/Carlos/Collections/' took 0.01s
+[2017.06.30-23.56.28:360][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/Collections/' took 0.01s
+[2017.06.30-23.56.28:360][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.06.30-23.56.28:371][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2017.06.30-23.56.28:378][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2245 classes and 453 folders.
+[2017.06.30-23.56.28:430][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.30-23.56.28:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.30-23.56.28:540][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.30-23.56.28:595][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.30-23.56.29:728][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.30-23.56.29:769][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.UnrealOculusTFM
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: CWD: D:\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: Initial Dir: D:\Epic Games\UE_4.15
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: Env CWD: D:\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: BranchPath = CARLOS-PC/D/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = CARLOS-PC/D/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Carlos\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.30-23.56.30:328][  0]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.06.30-23.56.30:328][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.30-23.56.30:927][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.30-23.56.30:927][  0]LogLoad: (Engine Initialization) Total time: 16.17 seconds
+[2017.06.30-23.56.30:927][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.06.30-23.56.30:927][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.30-23.56.30:927][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.30-23.56.31:266][  0]LogOcInput: OculusInput pre-init called
+[2017.06.30-23.56.31:287][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.30-23.56.31:289][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.30-23.56.31:293][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.30-23.56.31:293][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.06.30-23.56.31:453][  0]LogRenderer: Reallocating scene render targets to support 948x556 NumSamples 1 (Frame:2).
+[2017.06.30-23.56.31:645][  1]LogAssetRegistry: Asset discovery search completed in 10.3991 seconds
+[2017.06.30-23.56.31:645][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000005 seconds (found 0 objects)
+[2017.06.30-23.56.31:645][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000104 seconds (updated 0 objects)
+[2017.06.30-23.56.32:309][  3]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-23.57.28:471][268]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-23.57.28:595][268]LogSavePackage: Save=43.51ms
+[2017.06.30-23.57.28:595][268]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/StartupMapC9DEFB18434F4B54A09C17AECCEBDD9C.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2017.06.30-23.57.28:597][268]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2017.06.30-23.57.28:665][268]LogSavePackage: Save=19.45ms
+[2017.06.30-23.57.28:665][268]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/StartupMap_BuiltDataB71831384B0427AE4C0F1D80014D808E.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2017.06.30-23.57.28:668][268]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2017.06.30-23.57.29:433][352]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-23.57.33:256][706]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.30-23.57.35:827][706]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.06.30-23.57.39:627][706]LogSlate: Took 0.008560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.30-23.57.39:958][707]LogSlate: Took 0.000473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.30-23.57.47:425][521]LogAIModule: Creating AISystem for world NoVRMap
+[2017.06.30-23.57.47:461][521]Cmd: MAP LOAD FILE="C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.30-23.57.47:461][521]LightingResults: New page: Lighting Build
+[2017.06.30-23.57.47:462][521]LoadErrors: New page: Loading map: NoVRMap.umap
+[2017.06.30-23.57.47:489][521]MapCheck: New page: Map Check
+[2017.06.30-23.57.47:489][521]LightingResults: New page: Lighting Build
+[2017.06.30-23.57.47:504][521]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.30-23.57.47:517][521]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.30-23.57.47:568][521]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.576ms to complete.
+[2017.06.30-23.57.47:568][521]LogFileHelpers: Loading map 'NoVRMap' took 0.108
+[2017.06.30-23.57.50:752][894]LogSavePackage: Save=11.81ms
+[2017.06.30-23.57.50:752][894]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap6033935F4CC930989F9E7785BC39E019.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.06.30-23.57.50:756][894]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.06.30-23.57.50:786][894]LogSavePackage: Save=3.97ms
+[2017.06.30-23.57.50:786][894]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData4EE9106B4EA6C52347C757AAB22DA56B.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.06.30-23.57.50:788][894]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.06.30-23.57.50:974][911]LogSavePackage: Save=11.35ms
+[2017.06.30-23.57.50:974][911]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap8D790CBA4F9D2F448599D28380A22BA3.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.06.30-23.57.50:977][911]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.06.30-23.57.51:007][911]LogSavePackage: Save=3.22ms
+[2017.06.30-23.57.51:007][911]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData69739FE245BD28B1504CABB3D10F681C.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.06.30-23.57.51:009][911]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.06.30-23.57.52:028][ 33]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-23.57.52:072][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-23.57.52:072][ 33]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 3:57:52 AM)
+[2017.06.30-23.57.52:086][ 33]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.06.30-23.57.52:087][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000816s)
+[2017.06.30-23.57.52:088][ 33]LogAIModule: Creating AISystem for world NoVRMap
+[2017.06.30-23.57.52:088][ 33]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.06.30-23.57.52:088][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001769s)
+[2017.06.30-23.57.52:101][ 33]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.30-23.57.52:107][ 33]LogInit: FAudioDevice initialized.
+[2017.06.30-23.57.52:164][ 33]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.30-23.57.52:164][ 33]LogLoad: Game class is 'GameModeBase'
+[2017.06.30-23.57.52:166][ 33]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-01.57.52
+[2017.06.30-23.57.52:166][ 33]LogWorld: Bringing up level for play took: 0.000899
+[2017.06.30-23.57.52:197][ 33]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.30-23.57.52:198][ 33]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 1.105
+[2017.06.30-23.58.02:983][308]LogSavePackage: Save=11.89ms
+[2017.06.30-23.58.02:983][308]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap66ED50434DB44D4A0D3D37B1A71AEBC8.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.06.30-23.58.02:986][308]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.06.30-23.58.03:014][308]LogSavePackage: Save=3.09ms
+[2017.06.30-23.58.03:014][308]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData88ED6BEE4CB72CE7254F1A891723BBE0.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.06.30-23.58.03:016][308]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.06.30-23.58.03:160][320]LogSavePackage: Save=12.77ms
+[2017.06.30-23.58.03:160][320]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap2B1186C1484F6CD1FC1E038DAA096DF6.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.06.30-23.58.03:162][320]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.06.30-23.58.03:187][320]LogSavePackage: Save=3.16ms
+[2017.06.30-23.58.03:187][320]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData140B605A43560F167E3095A3992A3CE3.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.06.30-23.58.03:190][320]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.06.30-23.58.07:131][680]LogSavePackage: Save=30.68ms
+[2017.06.30-23.58.07:132][680]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController522FCF9F476EBE34002B2FA2526A6EDB.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.58.07:134][680]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.58.07:269][690]LogSavePackage: Save=20.82ms
+[2017.06.30-23.58.07:269][690]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController77C922704AAE07A0D0BDA796727F9DD7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.58.07:272][690]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.58.32:036][628]LogSavePackage: Save=19.56ms
+[2017.06.30-23.58.32:036][628]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController9DA7AFDE4FE05947E1DEE69E2BF71901.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.58.32:040][628]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.58.32:192][642]LogSavePackage: Save=19.24ms
+[2017.06.30-23.58.32:192][642]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController58C056CE499D60895ADAC9AD6F20EAA8.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.58.32:194][642]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.59.36:221][241]LogSavePackage: Save=19.27ms
+[2017.06.30-23.59.36:221][241]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController311A410540DC5D412BD090B3C6C74A68.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.59.36:224][241]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.59.57:826][800]LogSavePackage: Save=19.29ms
+[2017.06.30-23.59.57:827][800]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerFB2B2621478682505DD7DB89E235045F.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.59.57:830][800]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.06.30-23.59.57:992][815]LogSavePackage: Save=19.76ms
+[2017.06.30-23.59.57:992][815]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerF0B46F2C4F9B2A2927A6068AE7F3F84A.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.06.30-23.59.57:994][815]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.00.14:168][707]LogSavePackage: Save=22.54ms
+[2017.07.01-00.00.14:168][707]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController03E12C634DD52F5718AD1B9D86FA6227.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.00.14:170][707]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.00.14:310][719]LogSavePackage: Save=20.06ms
+[2017.07.01-00.00.14:310][719]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController884447B14CEFC6A19569948FF1A63742.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.00.14:312][719]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.00.16:024][920]LogSavePackage: Save=20.37ms
+[2017.07.01-00.00.16:024][920]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerBA59507742327A0948763090F8CDCAE2.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.00.16:028][920]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.00.16:176][933]LogSavePackage: Save=20.50ms
+[2017.07.01-00.00.16:176][933]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerDD6EC11A46DA7DB591BB3F937A53EAF9.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.00.16:178][933]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.00.47:277][574]LogSavePackage: Save=20.56ms
+[2017.07.01-00.00.47:278][574]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerA348169C4A9167A956C0308C400DA48C.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.00.47:281][574]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.01.28:211][423]LogSavePackage: Save=20.70ms
+[2017.07.01-00.01.28:211][423]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController52E0C5EA4B0C1A4A192416A48382A7F7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.01.28:214][423]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.02.16:890][219]LogSavePackage: Save=20.89ms
+[2017.07.01-00.02.16:890][219]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerE81779DF4C644C518C0A80B8B60EE7C3.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.02.16:892][219]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.02.43:157][340]LogSavePackage: Save=23.63ms
+[2017.07.01-00.02.43:157][340]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController9A248C914E5144F4E44DD89F3324BA91.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.02.43:159][340]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.02.43:322][355]LogSavePackage: Save=21.36ms
+[2017.07.01-00.02.43:322][355]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController044C12C04D6F6640A5D86FBA5DAE5365.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.02.43:324][355]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.06:831][115]LogSavePackage: Save=21.33ms
+[2017.07.01-00.03.06:831][115]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController0B32DA154CEDC980E068FC8A9865E312.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.06:835][115]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.10:721][575]LogSavePackage: Save=22.65ms
+[2017.07.01-00.03.10:721][575]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController15F6E9F34AFD2FBCEE95A4BC221CC1B6.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.10:724][575]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.10:905][592]LogSavePackage: Save=23.11ms
+[2017.07.01-00.03.10:905][592]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerF65F7D3D41583B9100FDF1B56E2C83BC.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.10:907][592]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.16:110][203]LogSavePackage: Save=22.89ms
+[2017.07.01-00.03.16:110][203]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController71A579504D58ABF5F61017835AD0937D.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.16:113][203]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.22:256][889]LogSavePackage: Save=23.60ms
+[2017.07.01-00.03.22:256][889]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerCFAEA3384987C2CBC631EAB18FC4C604.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.22:259][889]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.23:891][ 80]LogSavePackage: Save=22.36ms
+[2017.07.01-00.03.23:891][ 80]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController068677B742D738F7A177529640D755D1.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.23:894][ 80]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.24:042][ 93]LogSavePackage: Save=21.68ms
+[2017.07.01-00.03.24:042][ 93]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController345659CF4236F06A42DCEDBAFF07206B.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.24:044][ 93]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.52:204][465]LogSavePackage: Save=21.91ms
+[2017.07.01-00.03.52:204][465]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController054773474BCC86165BF5C88A17FAEE35.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.52:208][465]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.52:374][480]LogSavePackage: Save=22.78ms
+[2017.07.01-00.03.52:374][480]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerF893AADD47B38366DCBD4BB427393C40.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.03.52:375][480]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.03.55:526][858]LogEditorViewport: Clicking Background
+[2017.07.01-00.03.55:769][882]LogSavePackage: Save=11.16ms
+[2017.07.01-00.03.55:769][882]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap97E5407D4871993F9D7BE3A5E49AA219.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.03.55:772][882]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.03.55:817][882]LogSavePackage: Save=3.12ms
+[2017.07.01-00.03.55:817][882]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData85CFAEA749F40027F025F88E0A6DD0F5.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.03.55:819][882]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.03.58:624][218]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.03.58:631][218]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.03.58:632][218]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.03.58:945][218]LogPlayLevel: PlayLevel: Blueprint regeneration took 313 ms (1 blueprints)
+[2017.07.01-00.03.58:945][218]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:03:58 AM)
+[2017.07.01-00.03.58:945][218]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.03.58:946][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000782s)
+[2017.07.01-00.03.58:947][218]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.03.58:947][218]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.07.01-00.03.58:947][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001772s)
+[2017.07.01-00.03.58:962][218]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.03.58:968][218]LogInit: FAudioDevice initialized.
+[2017.07.01-00.03.58:995][218]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.03.58:995][218]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.03.58:997][218]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.03.58
+[2017.07.01-00.03.58:997][218]LogWorld: Bringing up level for play took: 0.000901
+[2017.07.01-00.03.58:998][218]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.095
+[2017.07.01-00.04.18:526][511]LogSavePackage: Save=22.74ms
+[2017.07.01-00.04.18:526][511]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerF8F9865542D889821ED4D2A5BAE4D405.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.04.18:528][511]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.04.21:085][811]LogSavePackage: Save=22.40ms
+[2017.07.01-00.04.21:085][811]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController87A050814F8CD1691105CE9A01812DA5.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.04.21:087][811]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.04.21:263][827]LogSavePackage: Save=23.72ms
+[2017.07.01-00.04.21:263][827]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerBF6082FA42236A775384F8BF0F8669BA.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.04.21:264][827]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.04.22:960][ 30]LogEditorViewport: Clicking Background
+[2017.07.01-00.04.23:125][ 45]LogSavePackage: Save=11.65ms
+[2017.07.01-00.04.23:125][ 45]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap7E56BC244C682D51760553A678045907.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.04.23:128][ 45]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.04.23:165][ 45]LogSavePackage: Save=3.25ms
+[2017.07.01-00.04.23:165][ 45]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData7E77BE7B4C470215993C2BA2C61B3EF4.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.04.23:166][ 45]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.04.23:793][120]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.04.23:800][120]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.04.23:800][120]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.04.23:886][120]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2017.07.01-00.04.23:886][120]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:04:23 AM)
+[2017.07.01-00.04.23:887][120]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.04.23:887][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000785s)
+[2017.07.01-00.04.23:888][120]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.04.23:888][120]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.07.01-00.04.23:888][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001736s)
+[2017.07.01-00.04.23:902][120]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.04.23:907][120]LogInit: FAudioDevice initialized.
+[2017.07.01-00.04.23:936][120]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.04.23:936][120]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.04.23:938][120]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.04.23
+[2017.07.01-00.04.23:938][120]LogWorld: Bringing up level for play took: 0.000907
+[2017.07.01-00.04.23:938][120]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 0.846
+[2017.07.01-00.04.35:233][460]LogSavePackage: Save=11.14ms
+[2017.07.01-00.04.35:233][460]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap54E5979346CAE47299745A9540D29CE9.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.04.35:236][460]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.04.35:263][460]LogSavePackage: Save=2.88ms
+[2017.07.01-00.04.35:263][460]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData14B0C185472F962253B86F803F5C1083.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.04.35:265][460]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.04.42:914][373]LogRenderer: Reallocating scene render targets to support 1020x688 NumSamples 1 (Frame:5398).
+[2017.07.01-00.05.08:403][417]LogSavePackage: Save=22.38ms
+[2017.07.01-00.05.08:403][417]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController36753ADD4358F3E6E0CD50B1A69C768D.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.05.08:406][417]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.05.10:366][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.05.10:373][652]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.05.10:373][652]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.05.10:456][652]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2017.07.01-00.05.10:456][652]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:05:10 AM)
+[2017.07.01-00.05.10:457][652]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.05.10:457][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000712s)
+[2017.07.01-00.05.10:458][652]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.05.10:458][652]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.07.01-00.05.10:458][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001580s)
+[2017.07.01-00.05.10:471][652]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.05.10:476][652]LogInit: FAudioDevice initialized.
+[2017.07.01-00.05.10:509][652]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.05.10:509][652]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.05.10:511][652]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.05.10
+[2017.07.01-00.05.10:512][652]LogWorld: Bringing up level for play took: 0.001069
+[2017.07.01-00.05.10:512][652]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.58
+[2017.07.01-00.05.11:518][704]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:006B
+[2017.07.01-00.05.11:564][704]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.05.11:765][720]LogEditorViewport: Clicking Background
+[2017.07.01-00.05.12:815][846]LogEditorViewport: Clicking Background
+[2017.07.01-00.05.23:716][148]LogEditorViewport: Clicking Background
+[2017.07.01-00.05.23:881][163]LogSavePackage: Save=11.87ms
+[2017.07.01-00.05.23:881][163]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMapD12E767A497532CE526D94A74CA340D0.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.05.23:884][163]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.05.23:911][163]LogSavePackage: Save=2.96ms
+[2017.07.01-00.05.23:911][163]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData8762288F44788F980C3DD49167288346.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.05.23:913][163]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.05.43:379][491]LogSavePackage: Save=21.68ms
+[2017.07.01-00.05.43:379][491]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController74E3CC174C028C14B51BD8B869444C8D.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.05.43:382][491]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.05.48:774][ 95]LogSlate: Took 0.014132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.01-00.05.58:066][195]LogSavePackage: Save=24.57ms
+[2017.07.01-00.05.58:066][195]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController82AAC5814FBCD72C3171CD92052AB612.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.05.58:069][195]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.08:056][366]LogSavePackage: Save=23.57ms
+[2017.07.01-00.06.08:057][366]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController1CC96D4B492BE950CF3188BAF86A6632.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.08:059][366]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.20:335][820]LogSavePackage: Save=22.00ms
+[2017.07.01-00.06.20:335][820]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerC99F772F485DEA42D4AC5C846FA38233.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.20:338][820]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.20:504][835]LogSavePackage: Save=22.21ms
+[2017.07.01-00.06.20:504][835]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController9C9D3E2E4356744BE91F10850519C948.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.20:506][835]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.22:430][ 61]LogSavePackage: Save=22.87ms
+[2017.07.01-00.06.22:430][ 61]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController360E6F214DD60C7F68699DA99D42B1FB.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.22:434][ 61]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.27:008][604]LogSavePackage: Save=22.92ms
+[2017.07.01-00.06.27:008][604]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController1609C83C495122DBBE87709B62D36229.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.27:011][604]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.27:160][617]LogSavePackage: Save=25.34ms
+[2017.07.01-00.06.27:161][617]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerBB30B5254BAC12FCB5BC85BBB522D731.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.06.27:163][617]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.06.30:691][ 35]LogSavePackage: Save=11.80ms
+[2017.07.01-00.06.30:691][ 35]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap85A63ABE4080E66D286E99944E502846.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.06.30:694][ 35]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.06.30:733][ 35]LogSavePackage: Save=2.91ms
+[2017.07.01-00.06.30:733][ 35]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData8980129549E8FBF8F5BB5CA41BC2E570.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.06.30:734][ 35]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.06.32:536][251]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.06.32:545][251]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.06.32:545][251]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.06.32:735][251]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2017.07.01-00.06.32:735][251]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:06:32 AM)
+[2017.07.01-00.06.32:735][251]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.06.32:736][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000976s)
+[2017.07.01-00.06.32:737][251]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.06.32:737][251]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2017.07.01-00.06.32:737][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.002037s)
+[2017.07.01-00.06.32:750][251]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.06.32:757][251]LogInit: FAudioDevice initialized.
+[2017.07.01-00.06.32:977][251]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.06.32:977][251]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.06.32:980][251]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.06.32
+[2017.07.01-00.06.32:980][251]LogWorld: Bringing up level for play took: 0.001181
+[2017.07.01-00.06.32:980][251]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.06.32:982][251]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.11
+[2017.07.01-00.06.33:014][251]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:6795).
+[2017.07.01-00.06.37:404][762]LogEditorViewport: Clicking Background
+[2017.07.01-00.06.37:537][773]LogSavePackage: Save=11.61ms
+[2017.07.01-00.06.37:537][773]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap4CBE52DF4E18792F2AB4F09546CC3CC1.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.06.37:540][773]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.06.37:569][773]LogSavePackage: Save=2.89ms
+[2017.07.01-00.06.37:569][773]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData451E022A4C682889AACBF1A31939C331.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.06.37:571][773]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.06.37:982][822]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.06.37:989][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.06.37:989][822]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:06:37 AM)
+[2017.07.01-00.06.37:989][822]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.06.37:990][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000828s)
+[2017.07.01-00.06.37:991][822]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.06.37:991][822]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.07.01-00.06.37:991][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001738s)
+[2017.07.01-00.06.38:007][822]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.06.38:012][822]LogInit: FAudioDevice initialized.
+[2017.07.01-00.06.38:041][822]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.06.38:041][822]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.06.38:043][822]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.06.38
+[2017.07.01-00.06.38:043][822]LogWorld: Bringing up level for play took: 0.000804
+[2017.07.01-00.06.38:044][822]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 0.951
+[2017.07.01-00.06.49:111][129]LogSavePackage: Save=12.02ms
+[2017.07.01-00.06.49:112][129]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap0834E77042B00528E8D31FAE2E77AB05.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.06.49:113][129]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.06.49:141][129]LogSavePackage: Save=3.15ms
+[2017.07.01-00.06.49:141][129]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData9A8EDB564076F41916533896D03D172A.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.06.49:142][129]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.06.54:249][733]LogSavePackage: Save=11.66ms
+[2017.07.01-00.06.54:249][733]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap4C30156645E3F4E90064548E42EFB42A.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.06.54:253][733]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.06.54:281][733]LogSavePackage: Save=2.89ms
+[2017.07.01-00.06.54:281][733]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData0840EBEF4E0BCA3ED9107898D5CDC7E0.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.06.54:283][733]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.06.55:038][823]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.06.55:046][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.06.55:046][823]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:06:55 AM)
+[2017.07.01-00.06.55:046][823]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.06.55:047][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000900s)
+[2017.07.01-00.06.55:048][823]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.06.55:048][823]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2017.07.01-00.06.55:048][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001725s)
+[2017.07.01-00.06.55:086][823]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.06.55:092][823]LogInit: FAudioDevice initialized.
+[2017.07.01-00.06.55:119][823]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.06.55:120][823]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.06.55:121][823]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.06.55
+[2017.07.01-00.06.55:121][823]LogWorld: Bringing up level for play took: 0.000708
+[2017.07.01-00.06.55:122][823]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 0.03
+[2017.07.01-00.07.18:560][579]LogSavePackage: Save=12.08ms
+[2017.07.01-00.07.18:560][579]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap6C2E6D274DD7F9743F4CACB4CF73309D.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.07.18:562][579]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.07.18:593][579]LogSavePackage: Save=3.57ms
+[2017.07.01-00.07.18:593][579]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltDataD76E84424422680B2C3101A915F818CB.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.07.18:595][579]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.07.25:040][108]LogSavePackage: Save=22.27ms
+[2017.07.01-00.07.25:040][108]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController4A2CFCB84A036E8B50A8438565696E1F.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.25:043][108]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.44:286][407]LogEditorTransaction: Undo Create Pin Link
+[2017.07.01-00.07.44:680][443]LogSavePackage: Save=22.74ms
+[2017.07.01-00.07.44:680][443]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController4E6476084078ABA06000E5BF275BEBD0.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.44:684][443]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.50:986][185]LogSavePackage: Save=22.93ms
+[2017.07.01-00.07.50:986][185]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController38662622474BF89E627E3AB183B6F978.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.50:989][185]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.51:168][201]LogSavePackage: Save=24.99ms
+[2017.07.01-00.07.51:168][201]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController2B1DC8424E3ADBBE5E340FA486640FD6.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.51:171][201]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.54:738][622]LogSavePackage: Save=23.77ms
+[2017.07.01-00.07.54:738][622]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController2115F8B44B47724425A32B9D89D1AF51.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.54:741][622]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.54:925][639]LogSavePackage: Save=22.87ms
+[2017.07.01-00.07.54:925][639]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController7668BF09454D1F296446F8B7AE694CE3.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.07.54:927][639]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.07.56:718][853]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.07.56:726][853]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.07.56:726][853]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.07.56:822][853]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
+[2017.07.01-00.07.56:823][853]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:07:56 AM)
+[2017.07.01-00.07.56:823][853]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.07.56:824][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000801s)
+[2017.07.01-00.07.56:824][853]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.07.56:824][853]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.07.01-00.07.56:824][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001637s)
+[2017.07.01-00.07.56:865][853]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.07.56:871][853]LogInit: FAudioDevice initialized.
+[2017.07.01-00.07.56:910][853]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.07.56:910][853]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.07.56:913][853]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.07.56
+[2017.07.01-00.07.56:913][853]LogWorld: Bringing up level for play took: 0.001325
+[2017.07.01-00.07.56:913][853]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.07.56:916][853]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.176
+[2017.07.01-00.07.58:012][909]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00A4
+[2017.07.01-00.07.58:012][909]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.08.06:108][837]LogEditorViewport: Clicking Background
+[2017.07.01-00.08.06:305][853]LogSavePackage: Save=12.01ms
+[2017.07.01-00.08.06:306][853]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap7ADF911745AEBD882BBBD1BAB6D2C460.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.08.06:308][853]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.08.06:337][853]LogSavePackage: Save=3.18ms
+[2017.07.01-00.08.06:337][853]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData23033BE04423DFEDB90F9881C6F9D6B6.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.08.06:338][853]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.08.21:412][651]LogSavePackage: Save=25.93ms
+[2017.07.01-00.08.21:412][651]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController1B687C3F4D55DFB30F34039258344B3C.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.08.21:415][651]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.08.32:927][964]LogSavePackage: Save=23.03ms
+[2017.07.01-00.08.32:927][964]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerD52DEDF44859DB73B37195A11F5D4619.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.08.32:930][964]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.08.45:861][506]LogSavePackage: Save=24.90ms
+[2017.07.01-00.08.45:861][506]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController5FF72298480BFF102C7AC4BFB2BD4C19.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.08.45:864][506]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.09.00:631][271]LogSavePackage: Save=23.28ms
+[2017.07.01-00.09.00:631][271]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController21C77DB746DD06CD8D27FE960624B7E7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.09.00:634][271]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.09.00:809][287]LogSavePackage: Save=24.11ms
+[2017.07.01-00.09.00:809][287]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerE4EFC5E646ED7FCA52D9CB991E88FA30.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.09.00:811][287]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.09.29:415][688]LogSavePackage: Save=22.46ms
+[2017.07.01-00.09.29:416][688]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController35B7B74D4B4E6C0571CC3FA9A9D25B7F.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.09.29:418][688]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.09.29:595][704]LogSavePackage: Save=23.91ms
+[2017.07.01-00.09.29:596][704]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerE7610C9B470102AE547FF397517C1197.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.09.29:598][704]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.09.30:607][825]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.09.30:615][825]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.09.30:615][825]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.09.30:708][825]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2017.07.01-00.09.30:708][825]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:09:30 AM)
+[2017.07.01-00.09.30:709][825]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.09.30:709][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000840s)
+[2017.07.01-00.09.30:710][825]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.09.30:710][825]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.07.01-00.09.30:711][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001996s)
+[2017.07.01-00.09.30:724][825]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.09.30:730][825]LogInit: FAudioDevice initialized.
+[2017.07.01-00.09.30:762][825]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.09.30:762][825]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.09.30:764][825]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.09.30
+[2017.07.01-00.09.30:764][825]LogWorld: Bringing up level for play took: 0.001108
+[2017.07.01-00.09.30:764][825]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.09.30:767][825]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.326
+[2017.07.01-00.09.32:864][  4]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00A4
+[2017.07.01-00.09.32:864][  4]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.11.03:029][730]LogSavePackage: Save=23.76ms
+[2017.07.01-00.11.03:029][730]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController0F424E214A9710302A85B5B52B28E324.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.11.03:032][730]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.11.03:217][747]LogSavePackage: Save=23.51ms
+[2017.07.01-00.11.03:217][747]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerC960680D4AC3FC7AD9B7908BA9120C5F.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.11.03:219][747]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.11.41:520][282]LogSavePackage: Save=24.68ms
+[2017.07.01-00.11.41:520][282]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerF26DD36D49CAE4D277A5AA9CB7E5513F.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.11.41:524][282]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.11.41:686][296]LogSavePackage: Save=25.39ms
+[2017.07.01-00.11.41:686][296]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController70827205466B14C5EAA52F96C534E7C4.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.11.41:687][296]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.11.54:866][874]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.11.54:874][874]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.11.54:874][874]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.11.54:967][874]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2017.07.01-00.11.54:968][874]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:11:54 AM)
+[2017.07.01-00.11.54:968][874]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.11.54:969][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000869s)
+[2017.07.01-00.11.54:969][874]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.11.54:969][874]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.07.01-00.11.54:969][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001740s)
+[2017.07.01-00.11.54:982][874]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.11.54:988][874]LogInit: FAudioDevice initialized.
+[2017.07.01-00.11.55:022][874]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.11.55:022][874]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.11.55:024][874]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.11.55
+[2017.07.01-00.11.55:024][874]LogWorld: Bringing up level for play took: 0.000953
+[2017.07.01-00.11.55:025][874]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.11.55:027][874]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.065
+[2017.07.01-00.11.57:018][ 14]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00A4
+[2017.07.01-00.11.57:018][ 14]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.12.02:199][624]LogEditorViewport: Clicking Background
+[2017.07.01-00.12.02:386][641]LogSavePackage: Save=12.22ms
+[2017.07.01-00.12.02:386][641]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap7899EF2749BF512E7B1A3D8D2E5613C7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.12.02:388][641]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.12.02:418][641]LogSavePackage: Save=2.85ms
+[2017.07.01-00.12.02:418][641]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData61D996C54ED94CB01B7C9F9846B96D16.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.12.02:419][641]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.12.26:058][926]LogSavePackage: Save=11.53ms
+[2017.07.01-00.12.26:058][926]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap5179A45944639B492173D88417D585D8.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.12.26:060][926]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.12.26:091][926]LogSavePackage: Save=3.30ms
+[2017.07.01-00.12.26:091][926]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMap_BuiltData6E3FEF4149C117C03B8F099B42AEC961.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset'
+[2017.07.01-00.12.26:093][926]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap_BuiltData.uasset
+[2017.07.01-00.12.55:934][477]LogSavePackage: Save=24.95ms
+[2017.07.01-00.12.55:935][477]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerBFCEE1604E3E4F5DFB5DA8999B774250.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.12.55:938][477]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.12.56:131][495]LogSavePackage: Save=24.22ms
+[2017.07.01-00.12.56:132][495]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController90EC1D0A4D09C0C8457206A3C0FEE446.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.12.56:134][495]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.12.58:962][834]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.12.58:970][834]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.12.58:970][834]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.12.59:058][834]LogPlayLevel: PlayLevel: Blueprint regeneration took 88 ms (1 blueprints)
+[2017.07.01-00.12.59:058][834]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:12:59 AM)
+[2017.07.01-00.12.59:059][834]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.12.59:059][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000766s)
+[2017.07.01-00.12.59:060][834]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.12.59:060][834]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2017.07.01-00.12.59:060][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001848s)
+[2017.07.01-00.12.59:073][834]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.12.59:079][834]LogInit: FAudioDevice initialized.
+[2017.07.01-00.12.59:118][834]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.12.59:118][834]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.12.59:120][834]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.12.59
+[2017.07.01-00.12.59:121][834]LogWorld: Bringing up level for play took: 0.001509
+[2017.07.01-00.12.59:121][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.12.59:123][834]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 0.031
+[2017.07.01-00.13.01:395][  9]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00BD
+[2017.07.01-00.13.01:395][  9]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.14.11:018][256]LogSavePackage: Save=29.16ms
+[2017.07.01-00.14.11:018][256]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerD18501864508E6DF5315DBB0650070C7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.14.11:021][256]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.14.11:182][270]LogSavePackage: Save=24.85ms
+[2017.07.01-00.14.11:183][270]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController657854154C4C7DBA02F2189739AFBDC7.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.14.11:185][270]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.14.17:142][977]LogSavePackage: Save=25.16ms
+[2017.07.01-00.14.17:142][977]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerB111722A42211307253705876A96FC20.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.14.17:146][977]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.14.17:322][993]LogSavePackage: Save=24.99ms
+[2017.07.01-00.14.17:322][993]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterControllerAB4228B3427F6E2F47497BA945D69A6B.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.14.17:324][993]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.14.18:293][109]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.14.18:302][109]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.01-00.14.18:302][109]LogPlayLevel: [PlayLevel] Compiling NoVRCharacterController before play...
+[2017.07.01-00.14.18:395][109]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2017.07.01-00.14.18:395][109]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:14:18 AM)
+[2017.07.01-00.14.18:395][109]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.14.18:396][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000936s)
+[2017.07.01-00.14.18:397][109]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.14.18:397][109]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2017.07.01-00.14.18:397][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001957s)
+[2017.07.01-00.14.18:411][109]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.14.18:416][109]LogInit: FAudioDevice initialized.
+[2017.07.01-00.14.18:449][109]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.14.18:449][109]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.14.18:451][109]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.14.18
+[2017.07.01-00.14.18:451][109]LogWorld: Bringing up level for play took: 0.001190
+[2017.07.01-00.14.18:452][109]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.14.18:454][109]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.638
+[2017.07.01-00.14.21:535][372]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00BD
+[2017.07.01-00.14.21:535][372]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.15.22:836][708]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.01-00.15.22:843][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.15.22:843][708]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:15:22 AM)
+[2017.07.01-00.15.22:843][708]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.15.22:844][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001089s)
+[2017.07.01-00.15.22:845][708]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.15.22:845][708]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.07.01-00.15.22:845][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.002178s)
+[2017.07.01-00.15.22:860][708]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.15.22:865][708]LogInit: FAudioDevice initialized.
+[2017.07.01-00.15.22:901][708]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.15.22:901][708]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.15.22:903][708]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.15.22
+[2017.07.01-00.15.22:903][708]LogWorld: Bringing up level for play took: 0.000939
+[2017.07.01-00.15.22:903][708]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.15.22:906][708]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.187
+[2017.07.01-00.16.30:681][641]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	NoVRCharacterController_C /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap:PersistentLevel.NoVRCharacterController_177
+	Function /Game/VirtualRealityBP/Blueprints/NoVRCharacterController.NoVRCharacterController_C:LerpToDestination:00BD
+[2017.07.01-00.16.30:682][641]PIE:Error: Error Infinite Loop detected in  NoVRCharacterController , asserted during  WhileLoop with the following  Call Stack
+[2017.07.01-00.16.52:459][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.16.52:459][240]PIE: New page: SIE session: NoVRMap (Jul 1, 2017, 4:16:52 AM)
+[2017.07.01-00.16.52:459][240]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.16.52:460][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000923s)
+[2017.07.01-00.16.52:461][240]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.16.52:461][240]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.07.01-00.16.52:462][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.002239s)
+[2017.07.01-00.16.52:477][240]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.16.52:483][240]LogInit: FAudioDevice initialized.
+[2017.07.01-00.16.52:510][240]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.16.52:510][240]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.16.52:512][240]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.16.52
+[2017.07.01-00.16.52:512][240]LogWorld: Bringing up level for play took: 0.000877
+[2017.07.01-00.16.52:513][240]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.16.52:736][240]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.357
+[2017.07.01-00.17.02:513][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.17.02:513][383]PIE: New page: SIE session: NoVRMap (Jul 1, 2017, 4:17:02 AM)
+[2017.07.01-00.17.02:513][383]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.17.02:514][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000939s)
+[2017.07.01-00.17.02:515][383]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.17.02:515][383]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2017.07.01-00.17.02:515][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001940s)
+[2017.07.01-00.17.02:530][383]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.17.02:535][383]LogInit: FAudioDevice initialized.
+[2017.07.01-00.17.02:565][383]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.17.02:565][383]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.17.02:567][383]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.17.02
+[2017.07.01-00.17.02:568][383]LogWorld: Bringing up level for play took: 0.001270
+[2017.07.01-00.17.02:568][383]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.17.02:569][383]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.523
+[2017.07.01-00.17.06:649][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.17.06:649][861]PIE: New page: SIE session: NoVRMap (Jul 1, 2017, 4:17:06 AM)
+[2017.07.01-00.17.06:649][861]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.17.06:650][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000938s)
+[2017.07.01-00.17.06:651][861]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.17.06:651][861]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.07.01-00.17.06:651][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001965s)
+[2017.07.01-00.17.06:669][861]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.17.06:675][861]LogInit: FAudioDevice initialized.
+[2017.07.01-00.17.06:708][861]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.17.06:708][861]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.17.06:710][861]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.17.06
+[2017.07.01-00.17.06:710][861]LogWorld: Bringing up level for play took: 0.000791
+[2017.07.01-00.17.06:710][861]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.17.06:710][861]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap -0.382
+[2017.07.01-00.17.08:053][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.17.08:054][ 10]PIE: New page: SIE session: NoVRMap (Jul 1, 2017, 4:17:08 AM)
+[2017.07.01-00.17.08:054][ 10]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.17.08:055][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000892s)
+[2017.07.01-00.17.08:055][ 10]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.17.08:055][ 10]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.07.01-00.17.08:056][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001917s)
+[2017.07.01-00.17.08:074][ 10]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.17.08:079][ 10]LogInit: FAudioDevice initialized.
+[2017.07.01-00.17.08:108][ 10]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.17.08:108][ 10]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.17.08:110][ 10]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.17.08
+[2017.07.01-00.17.08:110][ 10]LogWorld: Bringing up level for play took: 0.001019
+[2017.07.01-00.17.08:111][ 10]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.17.08:111][ 10]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 1.019
+[2017.07.01-00.17.19:168][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.01-00.17.19:168][193]PIE: New page: PIE session: NoVRMap (Jul 1, 2017, 4:17:19 AM)
+[2017.07.01-00.17.19:168][193]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap
+[2017.07.01-00.17.19:169][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000878s)
+[2017.07.01-00.17.19:170][193]LogAIModule: Creating AISystem for world NoVRMap
+[2017.07.01-00.17.19:170][193]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.07.01-00.17.19:170][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/NoVRMap.NoVRMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap (0.001769s)
+[2017.07.01-00.17.19:184][193]LogInit: XAudio2 using 'HG216-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.01-00.17.19:189][193]LogInit: FAudioDevice initialized.
+[2017.07.01-00.17.19:226][193]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.01-00.17.19:226][193]LogLoad: Game class is 'GameModeBase'
+[2017.07.01-00.17.19:228][193]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap.NoVRMap up for play (max tick rate 0) at 2017.07.01-02.17.19
+[2017.07.01-00.17.19:228][193]LogWorld: Bringing up level for play took: 0.000853
+[2017.07.01-00.17.19:228][193]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.07.01-00.17.19:230][193]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_NoVRMap 0.138
+[2017.07.01-00.17.25:620][936]LogSavePackage: Save=25.66ms
+[2017.07.01-00.17.25:620][936]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController43A451564E981700F03E62AD72ECD567.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.17.25:623][936]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.17.38:419][284]LogSavePackage: Save=24.88ms
+[2017.07.01-00.17.38:419][284]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRCharacterController65F73EF74DF1E5E8E9BBDCA49A8FB233.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset'
+[2017.07.01-00.17.38:421][284]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Blueprints/NoVRCharacterController.uasset
+[2017.07.01-00.17.38:510][284]LogSavePackage: Save=11.67ms
+[2017.07.01-00.17.38:510][284]LogSavePackage: Moving 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/NoVRMapB9ECE9724EAD6398CC33769C71B1965B.tmp' to 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap'
+[2017.07.01-00.17.38:512][284]LogSavePackage:Display: Finished SavePackage C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/VirtualRealityBP/Maps/NoVRMap.umap
+[2017.07.01-00.17.38:525][284]LogFileHelpers: Saving map 'NoVRMap' took 0.100
+[2017.07.01-00.17.38:931][285]Cmd: QUIT_EDITOR
+[2017.07.01-00.17.39:097][285]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.01-00.17.39:115][285]LogExit: Preparing to exit.
+[2017.07.01-00.17.39:841][285]LogExit: Editor shut down
+[2017.07.01-00.17.39:842][285]LogExit: Transaction tracking system shut down
+[2017.07.01-00.17.39:920][285]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.01-00.17.39:920][285]LogExit: Object subsystem successfully closed.
+[2017.07.01-00.17.39:941][285]LogD3D11RHI: Shutdown
+[2017.07.01-00.17.39:941][285]LogD3D11RHI: CleanupD3DDevice
+[2017.07.01-00.17.39:987][285]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.01-00.17.39:994][285]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.07.01-00.17.39:994][285]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.07.01-00.17.39:994][285]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.07.01-00.17.40:018][285]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.07.01-00.17.40:018][285]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (498)
+[2017.07.01-00.17.40:018][285]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.07.01-00.17.40:018][285]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.07.01-00.17.40:018][285]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.07.01-00.17.40:018][285]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.07.01-00.17.40:020][285]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/Collections/' was aborted.
+[2017.07.01-00.17.40:020][285]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/Developers/Carlos/Collections/' was aborted.
+[2017.07.01-00.17.40:020][285]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Saved/Collections/' was aborted.
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.07.01-00.17.40:020][285]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.07.01-00.17.40:021][285]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.07.01-00.17.40:935][285]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.07.01-00.17.40:936][285]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.07.01-00.17.40:936][285]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.07.01-00.17.40:936][285]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.07.01-00.17.40:936][285]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.07.01-00.17.40:936][285]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.07.01-00.17.40:990][285]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.07.01-00.17.40:995][285]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.07.01-00.17.41:244][285]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.07.01-00.17.41:245][285]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.07.01-00.17.41:245][285]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.07.01-00.17.41:245][285]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.07.01-00.17.41:245][285]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.07.01-00.17.41:246][285]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.01-00.17.41:246][285]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.01-00.17.41:246][285]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.01-00.17.41:246][285]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.01-00.17.41:347][285]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.01-00.17.41:447][285]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.01-00.17.41:448][285]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.01-00.17.41:659][285]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.01-00.17.41:659][285]LogDirectoryWatcher: A directory notification for 'C:/Users/Carlos/Documents/Unreal Projects/UnrealOculusTFM/Content/' was aborted.
+[2017.07.01-00.17.41:659][285]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.01-00.17.41:659][285]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.01-00.17.41:661][285]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.01-00.17.41:720][285]LogDerivedDataCache: Shutdown
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.01-00.17.41:720][285]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.01-00.17.41:721][285]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.01-00.17.41:721][285]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.01-00.17.41:721][285]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.07.01-00.17.41:721][285]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDE73875-494D-33EF-DE3F-8A84190A0A29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=8371c91447002a950b7b23b405aa991a%7C51cf4b5ba3b44eb8b924f0fc0f9e19c4%7C79c400b3-60a8-49ab-b6d2-2354df5a333a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.01-00.17.41:721][285]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDE73875-494D-33EF-DE3F-8A84190A0A29%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=8371c91447002a950b7b23b405aa991a%7C51cf4b5ba3b44eb8b924f0fc0f9e19c4%7C79c400b3-60a8-49ab-b6d2-2354df5a333a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.01-00.17.41:750][285]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.01-00.17.41:751][285]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.01-00.17.41:751][285]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.01-00.17.41:751][285]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.01-00.17.41:751][285]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.01-00.17.41:751][285]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.01-00.17.41:753][285]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.01-00.17.41:755][285]LogExit: Exiting.
+[2017.07.01-00.17.41:759][285]Log file closed, 07/01/17 02:17:41
